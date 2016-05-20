@@ -1,0 +1,8 @@
+//For the contacts (picking one)
+ Intent i = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+//For the contacts (viewing them) 
+ Intent i = new Intent(Intent.ACTION_VIEW, ContactsContract.Contacts.CONTENT_URI);
+//For the dial pad
+ Intent i = new Intent(Intent.ACTION_DIAL, null);
+//For viewing the call log
+ Intent i = new Intent(Intent.ACTION_VIEW, CallLog.Calls.CONTENT_URI);
