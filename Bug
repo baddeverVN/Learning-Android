@@ -1,0 +1,6 @@
+1.
+[Android] Gradle DSL method not found: 'runProguard'
+if when you import an android project and see this a error 
+which is : Gradle DSL method not found : ''runProguard' 
+you can fix by this way :
+" you are using version 0.14.0 or higher of the gradle plugin, you should replace "runProguard" with"minifyEnabled" in your build.gradle files."
